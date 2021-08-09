@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    padding: 50px 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    
+    // background-color: hsla(0, 0, 100, 75%);
+    .button{
+        padding: 30px 72px;
+    }
+
+    border-bottom: 3px solid transparent;
+    transition: $anim;
+
+    p{
+        margin: auto;
+    }
+}
+
+nav{
+    .tel{
+        font-size: 26px;
+    }
+
+    .wrapper>:nth-child(1){
+        margin-right: 30px;
+    }
+}

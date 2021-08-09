@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 375px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  padding: 40px 50px;
+  border-radius: 100px;
+  background-image: linear-gradient(0, #1cb108, #7fe08d);
+  color: white;
+  box-shadow: 0 6px 0 #176f0b;
+  transition: all 0.3s ease-in-out;
+  font-size: 17px;
+}
+.button:hover {
+  box-shadow: 0 0 0 #176f0b;
+}
+.button:active {
+  background-image: linear-gradient(0, #1cb108 100%, #7fe08d);
+}
+
+.sbold {
+  font-weight: 600;
+}
+
+header {
+  width: 100%;
+  padding: 50px 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+header .button {
+  padding: 30px 72px;
+}
+header p {
+  margin: auto;
+}
+
+nav .tel {
+  font-size: 26px;
+}
+nav .wrapper > :nth-child(1) {
+  margin-right: 30px;
+}
+
+#front {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background-attachment: scroll;
+  background-image: url(../img/Tree.png);
+  height: 879px;
+  width: 277px;
+  z-index: 1;
+}
+
+.intro {
+  padding: 220px 0 110px 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/cloud_front.png), url(../img/house_front.png), url(../img/house_bg.png), url(../img/cloud_bg.png), url(../img/sky.png);
+  background-position: 472px 377px, 907px 230px, 801px 0, 0 43px, 0 0;
+  background-attachment: scroll, scroll, fixed, scroll, fixed;
+}
+.intro p {
+  margin-bottom: 45px;
+}
+
+.blitz {
+  padding: 110px 0;
+}
+.blitz__item {
+  max-width: 350px;
+  text-align: center;
+}
+.blitz__item img {
+  height: 150px;
+}
+.blitz__item p {
+  margin-top: 30px;
+}
+.blitz__item p.sbold {
+  font-size: 24px;
+}
+
+.gallery {
+  padding-bottom: 140px;
+  text-align: center;
+}
+.gallery p {
+  margin: 0 auto;
+  max-width: 550px;
+  margin-bottom: 50px;
+}
+.gallery img {
+  width: 218px;
+  transition: all 0.3s ease-in-out;
+}
+.gallery img:hover {
+  filter: brightness(0.7);
+}
+
+.test {
+  padding: 145px 0 185px 0;
+  background-image: url(../img/catalog.png), url(../img/test_cloud.png), url(../img/test_bg.png);
+  background-size: 75%, 1, 1;
+  background-repeat: no-repeat;
+  background-position: 334px 47px, 0 42px, 0 0;
+}
+.test .container {
+  margin-right: 175px;
+}
+.test__discr {
+  max-width: 450px;
+}
+.test__modal {
+  padding: 70px 76px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.test__modal table {
+  margin: 0 -45px -45px -45px;
+  border-spacing: 45px;
+}
+.test__modal td {
+  min-width: 249px;
+  max-width: 249px;
+  min-height: 109px;
+  max-height: 109px;
+  line-height: 109px;
+}
+.test__modal td .button {
+  padding: 30px 70px;
+  border-radius: 70px;
+  display: inline-block;
+  line-height: 20px;
+}
+.test__modal td.ticket {
+  background-image: url(../img/cell.png);
+  background-repeat: no-repeat;
+}
+.test__modal td.ticket div {
+  margin-left: 15px;
+  line-height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=index.css.map */
