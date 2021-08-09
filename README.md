@@ -1,1 +1,1 @@
-OverSoul404/seaway/build/index.html.github.io
+https://oversoul404.github.io
