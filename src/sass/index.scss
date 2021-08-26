@@ -133,4 +133,23 @@
             }
         }
     }
+
+    .mark{
+        position: absolute;
+        width: 211px; height: 211px;
+        background-image: url(../img/mark.png);
+        line-height: 211px;
+        text-align: center;
+        left: 825px;
+        margin-top: 200px;
+
+        p{
+            line-height: normal;
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 22px;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
 }
