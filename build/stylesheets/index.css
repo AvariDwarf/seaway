@@ -44,16 +44,20 @@
   font-size: 30px;
 }
 
-.fs40 {
-  font-size: 40px;
-}
-
 .bold {
   font-weight: 600;
 }
 
+ub {
+  font-weight: 400;
+}
+
 .text-center {
   text-align: center;
+}
+
+.wan {
+  color: gray;
 }
 
 header {
@@ -104,6 +108,12 @@ section {
 .intro p {
   margin-bottom: 45px;
 }
+.intro .title {
+  width: 500px;
+}
+.intro .subtitle {
+  width: 400px;
+}
 
 .blitz__item {
   max-width: 350px;
@@ -116,8 +126,8 @@ section {
 }
 
 .gallery p {
-  margin: 0 auto;
-  max-width: 560px;
+  margin: auto;
+  max-width: 600px;
   margin-bottom: 50px;
 }
 .gallery img {
@@ -168,7 +178,7 @@ section {
   background-repeat: no-repeat;
 }
 .test__modal td.ticket div {
-  margin-left: 15px;
+  margin: 0px 15px;
   line-height: 20px;
   vertical-align: middle;
   display: inline-block;
@@ -191,6 +201,10 @@ section {
   font-size: 22px;
 }
 
+.feedback .title {
+  max-width: 780px;
+  margin: auto;
+}
 .feedback__item {
   max-width: 340px;
   margin-top: 100px;
