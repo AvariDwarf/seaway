@@ -2,9 +2,7 @@
 @import '_vars';
 @import '_header';
 
-section{
-    padding: 110px 0;
-}
+section{ padding: 110px 0; }
 
 #front{
     position:absolute;
@@ -34,25 +32,16 @@ section{
         0 0;
     background-attachment: scroll, scroll,fixed, scroll,fixed;
 
-    p{
-        margin-bottom: 45px;
-    }
+    p{ margin-bottom: 45px; }
 }
 .blitz{
     
     &__item{
         max-width: 350px;
         
-        img{
-            height: 150px;
-            // display: block;
-            // margin: 0 auto;
-        }
+        img{ height: 150px; }
     
-        p{
-            &.sbold{font-size: 24px;}
-            margin-top: 30px;
-        }
+        p{ margin-top: 30px; }
     }   
 }
 
@@ -68,9 +57,7 @@ section{
         width: 218px;
         transition: $anim;
 
-        &:hover{
-            filter: brightness(.7);
-        }
+        &:hover{ filter: brightness(.7); }
     }
 }
 
@@ -88,13 +75,9 @@ section{
         0 42px,
         0 0;
 
-    .container{
-        margin-right: 175px;
-    }
+    .container{ margin-right: 175px; }
 
-    &__discr{
-        max-width: 450px;
-    }
+    &__discr{ max-width: 450px; }
 
     &__modal{
         padding: 70px 76px;
@@ -152,5 +135,16 @@ section{
 }
 
 .feedback{
-    z-index: 1;
+    &__item{
+        max-width: 340px;
+        margin-top: 100px;
+        
+        p{
+            margin-top: 35px;
+        }
+
+        video, .video-js{
+            border-radius: 10px;
+        }
+    }
 }

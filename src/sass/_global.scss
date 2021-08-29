@@ -8,9 +8,7 @@
     text-decoration: none;
 }
 
-.container{
-    margin: 0 375px;
-}
+.container{ margin: 0 375px; }
 
 .wrapper{
     display: flex;
@@ -21,39 +19,23 @@
 .button{
     display: inline-block;
     padding: 40px 50px;
-    border-radius: 100px;
+    border-radius: 1000px;
     background-image: linear-gradient(0, #1cb108, #7fe08d);
     color: white;
     box-shadow: 0 6px 0 #176f0b;
+    // font-size: 17px;
+    
     transition: $anim;
-    font-size: 17px;
-
-    &:hover{
-        box-shadow: 0 0 0 #176f0b;
-    }
-    &:active{
-        background-image: linear-gradient(0, #1cb108 100%, #7fe08d);
-    }
+    &:hover{ box-shadow: 0 0 0 #176f0b; }
+    &:active{ background-image: linear-gradient(0, #1cb108 100%, #7fe08d); }
 }
 
-.fs18{
-    font-size: 18px;
-}
-.fs24{
-    font-size: 24px;
-}
-.fs30{
-    font-size: 30px;
-}
-.fs40{
-    font-size: 40px;
-}
+.fs18{ font-size: 18px; }
+.fs24{ font-size: 24px; }
+.fs30{ font-size: 30px; }
+.fs40{ font-size: 40px; }
 
-.bold{
-    font-weight: 600;
-}
+.bold{ font-weight: 600; }
 
-.text-center{
-    text-align: center;
-}
+.text-center{ text-align: center; }
 

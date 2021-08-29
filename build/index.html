@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.css">
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" href="./stylesheets/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.js"></script>
@@ -118,18 +119,81 @@
         <div class="container">
             <p class="fs30 text-center">
                 С 2013 года <b>мы построили<br>
-                более 500 домов и коммерческих объектов</b>><br>
+                более 500 домов и коммерческих объектов</b><br>
                 по всей России
             </p>
+            <div class="wrapper">
+                <div class="feedback__item">
+                    <div class="preview">
+                        <video class="video-js"
+                               controls
+                               width="340"
+                               preload="auto"
+                               data-setup="{}">
+                            <source src="credits.mp4" type="video/mp4"></video>
+                    </div>
+                    <p class="title bold fs24">
+                        2-х этажный дом в Ленинградской области
+                    </p>
+                    <p class="fs18">
+                        <span class="bold">Заказчик:</span> <span class="client">Виктор Булик</span>
+                    </p>
+                    <p class="discription">
+                        Виктор обратился к нам за постройкой 2-х этажного дома в Ленинградской области, с постройкой которого мы справились за короткий промежуток времени.
+                    </p>
+                    <p class="text-center"><a href="#" class="button">Посмотреть видеоотзыв</a></p>
+                </div>
+                <div class="feedback__item">
+                    <div class="preview">
+                        <video class="video-js"
+                               controls
+                               width="340"
+                               preload="auto"
+                               data-setup="{}">
+                            <source src="credits.mp4" type="video/mp4"></video>
+                    </div>
+                    <p class="title bold fs24">
+                        Небольшой дом для семьи из 3-х человек
+                    </p>
+                    <p class="fs18">
+                        <span class="bold">Заказчик:</span> <span class="client">Николай и Ирина</span>
+                    </p>
+                    <p class="discription">
+                        Виктор обратился к нам за постройкой 2-х этажного дома в Ленинградской области, с постройкой которого мы справились за короткий промежуток времени.
+                    </p>
+                    <p class="text-center"><a href="#" class="button">Посмотреть видеоотзыв</a></p>
+                </div>
+                <div class="feedback__item">
+                    <div class="preview">
+                        <video class="video-js"
+                               controls
+                               width="340"
+                               preload="auto"
+                               data-setup="{}">
+                            <source src="credits.mp4" type="video/mp4"></video>
+                    </div>
+                    <p class="title bold fs24">
+                        Павильон для фастфуда «Grill Party Bar»
+                    </p>
+                    <p class="fs18">
+                        <span class="bold">Заказчик:</span> <span class="client">Ксения Ильина</span>
+                    </p>
+                    <p class="discription">
+                        Виктор обратился к нам за постройкой 2-х этажного дома в Ленинградской области, с постройкой которого мы справились за короткий промежуток времени.
+                    </p>
+                    <p class="text-center"><a href="#" class="button">Посмотреть видеоотзыв</a></p>
+                </div>
+            </div>
         </div>
     </section>
     
-    <script>
-        (window).addEventListener('load', function(){
-            baguetteBox.run('.gallery__content',{
-                noScrollbars: true
+    <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+    <script>(window).addEventListener('load', function(){
+                baguetteBox.run('.gallery__content',{
+                    noScrollbars: true
+                });
             });
-    });</script>
+    </script>
     
 </body>
 </html>
