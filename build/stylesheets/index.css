@@ -32,6 +32,10 @@
   background-image: linear-gradient(0, #1cb108 100%, #7fe08d);
 }
 
+video *, .video-js * {
+  border-radius: 100px;
+}
+
 .fs18 {
   font-size: 18px;
 }
@@ -115,6 +119,16 @@ section {
   width: 400px;
 }
 
+.blitz .title {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.blitz .subtitle {
+  width: 575px;
+  margin: auto;
+  margin-bottom: 40px;
+}
 .blitz__item {
   max-width: 350px;
 }
@@ -214,6 +228,21 @@ section {
 }
 .feedback__item video, .feedback__item .video-js {
   border-radius: 10px;
+}
+
+.example .title {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.example .subtitle {
+  width: 450px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.example .video-js, .example video {
+  margin: auto;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
