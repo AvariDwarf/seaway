@@ -36,6 +36,18 @@ video *, .video-js * {
   border-radius: 100px;
 }
 
+.title {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
 .fs18 {
   font-size: 18px;
 }
@@ -109,26 +121,15 @@ section {
   background-position: 472px 377px, 907px 230px, 801px 0, 0 43px, 0 0;
   background-attachment: scroll, scroll, fixed, scroll, fixed;
 }
-.intro p {
-  margin-bottom: 45px;
-}
 .intro .title {
   width: 500px;
+  margin-left: 0;
 }
 .intro .subtitle {
   width: 400px;
+  margin-left: 0;
 }
 
-.blitz .title {
-  width: 800px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-.blitz .subtitle {
-  width: 575px;
-  margin: auto;
-  margin-bottom: 40px;
-}
 .blitz__item {
   max-width: 350px;
 }
@@ -215,12 +216,8 @@ section {
   font-size: 22px;
 }
 
-.feedback .title {
-  max-width: 780px;
-  margin: auto;
-}
 .feedback__item {
-  max-width: 340px;
+  max-width: 30%;
   margin-top: 100px;
 }
 .feedback__item p {
@@ -230,19 +227,16 @@ section {
   border-radius: 10px;
 }
 
-.example .title {
-  width: 900px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-.example .subtitle {
-  width: 450px;
-  margin: auto;
-  margin-bottom: 40px;
-}
 .example .video-js, .example video {
   margin: auto;
   border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+}
+
+.offer {
+  background-image: url(../img/offer.png);
 }
 
 /*# sourceMappingURL=index.css.map */

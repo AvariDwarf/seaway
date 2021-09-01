@@ -32,13 +32,10 @@ section{ padding: 110px 0; }
         0 0;
     background-attachment: scroll, scroll,fixed, scroll,fixed;
 
-    p{ margin-bottom: 45px;}
-    .title{ width: 500px;}
-    .subtitle{ width: 400px;}
+    .title   { width: 500px; margin-left: 0;}
+    .subtitle{ width: 400px; margin-left: 0;}
 }
 .blitz{
-    .title   { width: 800px; margin: auto; margin-bottom: 40px;}
-    .subtitle{ width: 575px; margin: auto; margin-bottom: 40px;}
 
     &__item{
         max-width: 350px;
@@ -139,10 +136,8 @@ section{ padding: 110px 0; }
 }
 
 .feedback{
-    .title{ max-width: 780px; margin: auto;}
-
     &__item{
-        max-width: 340px;
+        max-width: 30%;
         margin-top: 100px;
 
         p{
@@ -156,11 +151,19 @@ section{ padding: 110px 0; }
 }
 
 .example{
-    .title   { width: 900px; margin: auto; margin-bottom: 40px; }
-    .subtitle{ width: 450px; margin: auto; margin-bottom: 40px; }
-
     .video-js, video{
         margin: auto;
         border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16/9;
+    }
+}
+
+.offer{
+    background-image: url(../img/offer.png);
+
+    .wrapper{
+        
     }
 }
