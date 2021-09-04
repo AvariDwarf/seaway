@@ -6,9 +6,11 @@
     box-sizing: content-box;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
-.container{ margin: 0 375px; }
+// .container{ margin: 0 375px; }
+.container { margin: 0 20%; }
 
 .wrapper{
     display: flex;

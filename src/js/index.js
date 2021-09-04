@@ -18,7 +18,7 @@ $(window).scroll(function(){
                          'padding': '50px 0',
                          'border-bottom': '3px solid transparent'})
 
-    $(".intro").css("background-position", `472px 377px, 907px ${pos_intro[0]}px, 801px 0, 0 ${pos_intro[1]}px, 0 0`);
+    $(".intro").css("background-position", `100% 377px, 100% ${pos_intro[0]}px, 100% 0, 0 ${pos_intro[1]}px, 0 0`);
     $('.test') .css("background-position", `334px ${pos_test[0]}px, 0 ${pos_test[1]}px, 0 0`);
 
     $('#front').css("top", `${top+50}px`);

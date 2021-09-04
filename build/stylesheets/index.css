@@ -4,13 +4,14 @@
   box-sizing: content-box;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  list-style: none;
 }
 
 .container {
-  margin: 0 375px;
+  margin: 0 20%;
 }
 
-.wrapper {
+.wrapper, .offer .right ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,7 +96,7 @@ header p {
 nav .tel {
   font-size: 26px;
 }
-nav .wrapper > :nth-child(1) {
+nav .wrapper > :nth-child(1), nav .offer .right ul > :nth-child(1), .offer .right nav ul > :nth-child(1) {
   margin-right: 30px;
 }
 
@@ -118,7 +119,7 @@ section {
   padding-top: 220px;
   background-repeat: no-repeat;
   background-image: url(../img/cloud_front.png), url(../img/house_front.png), url(../img/house_bg.png), url(../img/cloud_bg.png), url(../img/sky.png);
-  background-position: 472px 377px, 907px 230px, 801px 0, 0 43px, 0 0;
+  background-position: 100% 377px, 100% 230px, 100% 0, 0 43px, 0 0;
   background-attachment: scroll, scroll, fixed, scroll, fixed;
 }
 .intro .title {
@@ -146,7 +147,8 @@ section {
   margin-bottom: 50px;
 }
 .gallery img {
-  width: 218px;
+  max-width: 300px;
+  width: 19%;
   transition: all 0.3s ease-in-out;
 }
 .gallery img:hover {
@@ -237,6 +239,28 @@ section {
 
 .offer {
   background-image: url(../img/offer.png);
+  color: #fff;
+}
+.offer .button {
+  padding: 30px 45px;
+}
+.offer .container {
+  margin-right: 350px;
+}
+.offer .left, .offer .right {
+  width: 400px;
+}
+.offer .right {
+  margin-left: 60px;
+}
+.offer .right ul {
+  margin-right: 20px;
+}
+.offer .right ul img {
+  height: 50px;
+}
+.offer .right * {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=index.css.map */
