@@ -1,4 +1,5 @@
 $(window).scroll(function(){
+
     var top = $(this).scrollTop();
     var pos_intro = [
         230 + top*.5,

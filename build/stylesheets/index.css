@@ -240,6 +240,7 @@ section {
 .offer {
   background-image: url(../img/offer.png);
   color: #fff;
+  padding-bottom: 70px;
 }
 .offer .button {
   padding: 30px 45px;
@@ -248,7 +249,7 @@ section {
   margin-right: 350px;
 }
 .offer .left, .offer .right {
-  width: 400px;
+  width: 375px;
 }
 .offer .right {
   margin-left: 60px;
@@ -258,9 +259,30 @@ section {
 }
 .offer .right ul img {
   height: 50px;
+  margin-right: 25px;
 }
-.offer .right * {
-  margin-bottom: 40px;
+.offer .right ul, .offer .right a {
+  margin-top: 40px;
+}
+
+.projects img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.projects img:hover {
+  filter: brightness(0.7);
+}
+.projects .pad {
+  padding: 0 20px 30px 20px;
+}
+.projects__item {
+  max-width: 31%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.projects__margin {
+  margin: 30px 0;
 }
 
 /*# sourceMappingURL=index.css.map */

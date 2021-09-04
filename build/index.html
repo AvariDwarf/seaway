@@ -237,11 +237,67 @@
             </div>
         </div>
     </section>
+    <section class="projects">
+        <div class="container">
+            <p class="fs30 title text-center">Вы можете выбрать <b>любой типовой проект или заказать индивидуальную разработку</b> концепции вашего дома</p>
+            <div class="wrapper">
+                <div class="projects__item projects__gallery-1">
+                    <a href="img/gallery/content/2-1.jpg"><img src="img/gallery/covers/2-1.jpg" alt="Loft Play"></a>
+                    <div class="pad">
+                        <div class="bold fs18">
+                            <p class="fs24 projects__margin">Проект «Loft Play»</p>
+                            <p>Площадь: <ub>45 м2</ub></p>
+                            <p>Комнат: <ub>2</ub></p>
+                            <p>Этажей: <ub>2</ub></p>
+                            <p>Срок строительства: <ub>3 недели</ub></p>
+                            <p class="fs30 projects__margin">930 000 руб.</p>
+                        </div>
+                        <a href="#" class="button">Подробнее о проекте</a>
+                    </div>
+                </div>
+                <div class="projects__item projects__gallery-2">
+                    <a href="img/gallery/content/2-2.jpg"><img src="img/gallery/covers/2-2.jpg" alt="Sky Chill"></a>
+                    <div class="pad">
+                        <div class="bold fs18">
+                            <p class="fs24 projects__margin">Проект «Sky Chill»</p>
+                            <p>Площадь: <ub>76 м2</ub></p>
+                            <p>Комнат: <ub>3</ub></p>
+                            <p>Этажей: <ub>2</ub></p>
+                            <p>Срок строительства: <ub>4 недели</ub></p>
+                            <p class="fs30 projects__margin">1 350 000 руб.</p>
+                        </div>
+                        <a href="#" class="button">Подробнее о проекте</a>
+                    </div>
+                </div>
+                <div class="projects__item projects__gallery-3">
+                    <a href="img/gallery/content/2-3.jpg"><img src="img/gallery/covers/2-3.jpg" alt="Loft Play"></a>
+                    <div class="pad">
+                        <div class="bold fs18">
+                            <p class="fs24 projects__margin">Проект «Loft Play»</p>
+                            <p>Площадь: <ub>18 м2</ub></p>
+                            <p>Комнат: <ub>1</ub></p>
+                            <p>Этажей: <ub>1</ub></p>
+                            <p>Срок строительства: <ub>2,5 недели</ub></p>
+                            <p class="fs30 projects__margin">800 000 руб.</p>
+                        </div>
+                        <a href="#" class="button">Подробнее о проекте</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
     <script>(window).addEventListener('load', function(){
                 baguetteBox.run('.gallery__content',{
                     noScrollbars: true
+                });
+                for(let i=1; i<=3; i++ )
+                baguetteBox.run(`.projects__gallery-${i}`,{
+                    noScrollbars: true,
+                    captions: function(e){
+                        return e.getElementsByTagName('img')[0].alt;
+                    }
                 });
             });
     </script>
